@@ -11,6 +11,7 @@
  */
 function afficherResultat(score, nbMotsProposes) {
     console.log("Votre score est de " + score + " sur " + nbMotsProposes)
+    document.write("Votre score est de " + score + " sur " + nbMotsProposes)
 }
 
 /**
